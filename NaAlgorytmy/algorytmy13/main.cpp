@@ -77,8 +77,22 @@ string xorSzyfrowanie(string tekst, string klucz) {
     return tekst;
 }
 
+void xorek(){
+    setlocale(LC_ALL, "PL");
+
+    string input;
+    cout << "Podaj tekst do zakodowania: ";
+    cin >> input;
+
+    cout << "Podaj klucz szyfrujący: ";
+    string klucz;
+    cin >> klucz;
+
+    cout << "Zakodowany tekst: " << xorSzyfrowanie(input, klucz) << endl;
+}
 
 int main() {
-    
+
+    xorek();
     return 0;
 }
