@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/wikiz/CLionProjects/kacperm/algorytmy13/cmake-build-debug",
-		"source" : "C:/Users/wikiz/CLionProjects/kacperm/algorytmy13"
+		"build" : "C:/Users/wikiz/kacperm/np_git/NaAlgorytmy/algorytmy13/cmake-build-debug",
+		"source" : "C:/Users/wikiz/kacperm/np_git/NaAlgorytmy/algorytmy13"
 	},
 	"version" : 
 	{
