@@ -3,6 +3,12 @@
 
 using namespace std;
 
+string szyfrCezaraKodowanie(string tekst, int klucz) {
+    string zaszyfrowanyTekst = "";
+    for (char c : tekst) {
+        if (isalpha(c)) {
+
+
 string xorSzyfrowanie(string tekst, string klucz) {
     for (int i = 0; i < tekst.length(); i++) {
 
