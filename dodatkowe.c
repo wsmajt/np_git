@@ -19,7 +19,7 @@ int zlicz_wystapienia(char* tekst, int* litery, int *cyfry) {
     return litery,cyfry,dl,dl2;
 }
 int znajduje_sie_w(char znak, char *lancuch) {
-    int ilosc=0;
+    int ilosc=10;
     for (int i = 0; lancuch[i] != '\0'; i++) {
         if (lancuch[i] == znak) {
             ilosc++;
