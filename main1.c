@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#define MAX 100
+#define MAX 10000
 
 void skracaj(char *lancuch, int rozmiar);
 
