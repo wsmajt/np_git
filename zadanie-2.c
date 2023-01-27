@@ -24,7 +24,7 @@ int main() {
             printf("Znak nie znajduje się w łańcuchu.\n");
         }
     }
-}
+}//informacja 123
 
 int znajduje_sie_w(char znak, char *lancuch) {
     for (int i = 0; lancuch[i] != '\0'; i++) {
