@@ -23,8 +23,7 @@ int main(void) {
 
     puts("--- Funkcja Strcat ---");
     strcpy(zdanieA, "Abram");
-    strcat(zdanieA, zdanieB);
-    printf("%s\n", zdanieA);
+
 
     return 0;
 }
