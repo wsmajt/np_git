@@ -2,7 +2,7 @@
 #include <math.h>
 #include <time.h>
 #include <stdlib.h>
-
+#include <string.h>
 void pierwsze(){
     int tab[5];
     for (int i = 0; i < 5; ++i) {
